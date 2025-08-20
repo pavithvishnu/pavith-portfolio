@@ -15,7 +15,7 @@ const PROFILE = {
   links: {
     github: "https://github.com/pavithvishnu",
     linkedin: "https://www.linkedin.com/in/pavithvishnu",
-    email: "pavith21297@gmail.com",
+    email: "mailto:pavith21297@gmail.com",
     resume: "/resume.pdf" // Place your PDF in /public as resume.pdf
   }
 };
@@ -189,7 +189,7 @@ export default function Portfolio() {
                   <a href={PROFILE.links.resume} target="_blank" rel="noreferrer">Download Resume</a>
                 </Button>
                 <Button variant="secondary" asChild className="rounded-2xl">
-                  <a href="#projects">View Projects</a>
+                  <a href="#experience">View Experience</a>
                 </Button>
               </div>
               <div className="mt-6 flex items-center gap-4 text-zinc-300">
