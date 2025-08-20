@@ -53,10 +53,10 @@ const EXPERIENCE = [
     org: "HCLTech",
     period: "Sep 2021 – Sep 2023",
     points: [
-     "Focused on IIoT product development as an IoT Edge Network Specialist.",
-     "Managed protocol stack integration (MQTT, LoRaWAN, Kafka, BLE), sensor integration, and board bring-up activities.",
-     "Developed IoT stack from edge to cloud using open-source tools and managed device backend with Azure IoT and AWS IoT Core.",
-     "Conducted bootloader development for custom hardware with Zephyr and Yocto."
+      "Focused on IIoT product development as an IoT Edge Network Specialist.",
+      "Managed protocol stack integration (MQTT, LoRaWAN, Kafka, BLE), sensor integration, and board bring-up activities.",
+      "Developed IoT stack from edge to cloud using open-source tools and managed device backend with Azure IoT and AWS IoT Core.",
+      "Conducted bootloader development for custom hardware with Zephyr and Yocto."
     ],
   },
   {
@@ -83,7 +83,7 @@ const EXPERIENCE = [
     period: "Aug 2018 – Feb 2019",
     points: [
       "Explored new technologies and created prototypes for specific POCs.",
-      "Conducted field surveys, and customer discovery, and deployed prototypes for data gathering." ],
+      "Conducted field surveys, and customer discovery, and deployed prototypes for data gathering."],
   },
 ];
 
@@ -194,12 +194,27 @@ export default function Portfolio() {
               </div>
               <div className="mt-6 flex items-center gap-4 text-zinc-300">
                 <span className="inline-flex items-center gap-1 text-sm"><MapPin className="w-4 h-4" /> {PROFILE.location}</span>
-                <a href={PROFILE.links.github} target="_blank" rel="noreferrer" className="hover:text-white" aria-label="GitHub"><Github className="w-5 h-5"/></a>
-                <a href={PROFILE.links.linkedin} target="_blank" rel="noreferrer" className="hover:text-white" aria-label="LinkedIn"><Linkedin className="w-5 h-5"/></a>
-                <a href={PROFILE.links.email} className="hover:text-white" aria-label="Email"><Mail className="w-5 h-5"/></a>
+                <a href={PROFILE.links.github} target="_blank" rel="noreferrer" className="hover:text-white" aria-label="GitHub"><Github className="w-5 h-5" /></a>
+                <a href={PROFILE.links.linkedin} target="_blank" rel="noreferrer" className="hover:text-white" aria-label="LinkedIn"><Linkedin className="w-5 h-5" /></a>
+                <a href={PROFILE.links.email} className="hover:text-white" aria-label="Email"><Mail className="w-5 h-5" /></a>
               </div>
             </div>
-            
+            <div className="relative">
+              <motion.div
+                className="aspect-square rounded-3xl bg-gradient-to-br from-indigo-500/20 to-cyan-500/10 border border-zinc-800 p-1"
+                initial={{ scale: 0.95, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.8 }}
+              >
+                <div className="h-full w-full rounded-2xl bg-zinc-900 grid place-items-center overflow-hidden">
+                  <img
+                    src="/me.jpg" 
+                    alt="My Photo" 
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
+                </div>
+              </motion.div>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -305,7 +320,7 @@ export default function Portfolio() {
       </section>
 
       {/* Patent */}
-      <section id="patent"  className="py-10 border-t border-zinc-800/60">
+      <section id="patent" className="py-10 border-t border-zinc-800/60">
         <div className={container}>
           {sectionTitle("Patent")}
           <div className="mt-4 flex flex-wrap gap-2">
@@ -325,13 +340,13 @@ export default function Portfolio() {
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild className="rounded-2xl">
-              <a href={PROFILE.links.email}><Mail className="w-4 h-4 mr-2"/> Email Me</a>
+              <a href={PROFILE.links.email}><Mail className="w-4 h-4 mr-2" /> Email Me</a>
             </Button>
             <Button asChild variant="secondary" className="rounded-2xl">
-              <a href={PROFILE.links.linkedin} target="_blank" rel="noreferrer"><Linkedin className="w-4 h-4 mr-2"/> LinkedIn</a>
+              <a href={PROFILE.links.linkedin} target="_blank" rel="noreferrer"><Linkedin className="w-4 h-4 mr-2" /> LinkedIn</a>
             </Button>
             <Button asChild variant="secondary" className="rounded-2xl">
-              <a href={PROFILE.links.github} target="_blank" rel="noreferrer"><Github className="w-4 h-4 mr-2"/> GitHub</a>
+              <a href={PROFILE.links.github} target="_blank" rel="noreferrer"><Github className="w-4 h-4 mr-2" /> GitHub</a>
             </Button>
           </div>
           <div className="mt-8 text-xs text-zinc-500">© {new Date().getFullYear()} {PROFILE.name}. Built with React + Tailwind.</div>
