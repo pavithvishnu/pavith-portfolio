@@ -16,7 +16,7 @@ const PROFILE = {
     github: "https://github.com/pavithvishnu",
     linkedin: "https://www.linkedin.com/in/pavithvishnu",
     email: "mailto:pavith21297@gmail.com",
-    resume: "/resume.pdf" // Place your PDF in /public as resume.pdf
+    resume: "/resume.pdf" 
   }
 };
 
@@ -150,7 +150,8 @@ export default function Portfolio() {
         <div className={`${container} py-4 flex items-center justify-between`}>
           <div className="flex items-center gap-3">
             <div className="size-9 rounded-2xl bg-zinc-800 grid place-items-center">
-              <Cpu className="w-5 h-5" />
+              <img src="/web-app-manifest-512x512.png" alt="icon" className="w-9 h-9 rounded-lg" />
+
             </div>
             <div>
               <div className="text-base font-semibold">{PROFILE.name}</div>
