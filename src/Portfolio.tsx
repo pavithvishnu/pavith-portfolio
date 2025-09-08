@@ -44,8 +44,8 @@ const EXPERIENCE = [
       "Built tooling for service lifecycle management.",
       "Developed custom Linux builds with Yocto for ARM architectures.",
       "Engaged in solution engineering, including project architecture design.",
-      "Integrated protocol stacks (MQTT, AMQP) and frameworks (.NET Nano Framework, .NET IoT Framework).",
-      "Implemented Azure DevOps integration, including App Server Azure Functions, Event Grid, and pipeline management"
+      "Integrated protocol stacks (MQTT) and frameworks (.NET Nano Framework, .NET IoT Framework).",
+      "Implemented Azure DevOps integration, Event Grid, and pipeline management"
     ],
   },
   {
