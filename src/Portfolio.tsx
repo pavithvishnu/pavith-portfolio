@@ -39,13 +39,13 @@ const EXPERIENCE = [
     org: "TinkerBlox Technology Private Limited",
     period: "Oct 2023 – Present",
     points: [
-      "Leading development of a lightweight container-less microservice runtime for embedded and edge devices.",
-      "Implemented secure service isolation using Linux kernel tools",
-      "Built tooling for service lifecycle management.",
-      "Developed custom Linux builds with Yocto for ARM architectures.",
-      "Engaged in solution engineering, including project architecture design.",
-      "Integrated protocol stacks (MQTT) and frameworks (.NET Nano Framework, .NET IoT Framework).",
-      "Implemented Azure DevOps integration, Event Grid, and pipeline management"
+      "A technology company focusing on embedded and edge solutions",
+      "Increased efficiency by 30% by leading and designing development of a runtime alternative Docker/podman for embedded and edge devices.",
+      "Increased security by implementing service isolation using Linux namespaces, cgroups, and netlink.",
+      "Designed tooling for service lifecycle management and automation.",
+      "Built custom Linux distributions with Yocto for ARM-based architectures.",
+      "Contributed to solution engineering and system architecture design for edge deployments.",
+      "Integrated Azure DevOps with Event Grid and CI/CD pipelines for streamlined delivery."
     ],
   },
   {
@@ -53,10 +53,14 @@ const EXPERIENCE = [
     org: "HCLTech",
     period: "Sep 2021 – Sep 2023",
     points: [
-      "Focused on IIoT product development as an IoT Edge Network Specialist.",
-      "Managed protocol stack integration (MQTT, LoRaWAN, Kafka, BLE), sensor integration, and board bring-up activities.",
-      "Developed IoT stack from edge to cloud using open-source tools and managed device backend with Azure IoT and AWS IoT Core.",
-      "Conducted bootloader development for custom hardware with Zephyr and Yocto."
+      "Served as an IoT Edge Network Specialist focusing on IIoT sensor-based product development.",
+      "Integrated protocol stacks: MQTT, LoRaWAN, Kafka, BLE on ESP32 devices (ESP-IDF).",
+      "Developed bootloaders for custom hardware leveraging Zephyr RTOS.",
+      "Led board bring-up and hardware validation for NXP i.MX-based automotive platforms using the Yocto Project.",
+      "Built end-to-end IoT pipelines from edge devices to cloud using the Eclipse IoT stack (Mosquitto, Hono, Ditto, Kanto).",
+      "Delivered 90% performance optimization and 90% cost reduction in smart energy meter cloud integration workflows.",
+      "Hands-on with embedded systems, RTOS (Zephyr, FreeRTOS), Yocto builds, cloud integration, and edge computing."
+
     ],
   },
   {
@@ -64,8 +68,10 @@ const EXPERIENCE = [
     org: "Duplex Healthcare (Australia)",
     period: "Mar 2021 & Dec 2020",
     points: [
-      "Integrated sensors with development boards and managed data calibration and transfer to AWS IoT Core via LoRaWAN.",
-      "Expanded LoRaWAN network coverage, established AWS IoT Core as database storage, and trained interns on build system usage."
+      "Integrated sensors with Heltec LoRa boards and implemented data calibration and AWS IoT Core integration.",
+      "Expanded LoRaWAN coverage and enabled TTN integration for healthcare IoT solutions.",
+      "Trained interns on embedded build systems and IoT workflows."
+
     ],
   },
   {
@@ -73,8 +79,9 @@ const EXPERIENCE = [
     org: "TBI @ KEC",
     period: "Mar 2019 – Feb 2021",
     points: [
-      "Developed technology prototypes under the government-funded NIDHI PRAYAS scheme.",
-      "Conducted customer exploration/validation and deployed prototypes with enhanced accuracy in various locations."
+      "Enhanced wildlife preservation efforts, reducing animal distress incidents by {90%} by developing real-time monitoring systems.",
+      "Conducted customer validation and prototype deployments across multiple field sites.",
+      "Applied LoRaWAN and TensorFlow transfer learning for classification-based monitoring."
     ],
   },
   {
@@ -82,8 +89,10 @@ const EXPERIENCE = [
     org: "Forge",
     period: "Aug 2018 – Feb 2019",
     points: [
-      "Explored new technologies and created prototypes for specific POCs.",
-      "Conducted field surveys, and customer discovery, and deployed prototypes for data gathering."],
+      "Explored emerging technologies to build rapid PoC prototypes",
+      "Conducted field surveys and user research for product validation",
+      "Deployed prototypes for data collection and IoT experimentation"
+    ],
   },
 ];
 
